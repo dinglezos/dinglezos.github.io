@@ -1,0 +1,157 @@
+
+header h1.heading-large {
+    font-size:1.9em;
+}
+
+
+
+/** User account details + NINO  **
+/*********************************/
+
+.service-info_help {
+
+    margin-top:5px;
+    padding:10px;
+    border-bottom: 1px solid #bfc1c3;
+    width:99%;
+    display:inline-flex;
+}
+
+.service-info_help > div:nth-child(1) {
+    width:70%;
+}
+
+
+#login-msg-header .service-info_help {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+
+.user-lastlog-message {
+  margin-bottom: 0.26316em;
+  color:#6F777B;
+}
+
+#login-msg-header .heading-small {
+  margin-top: 0.625em;
+}
+
+
+.ni-num {
+    font-size:16px;
+    width:40%
+}
+
+
+
+
+/** Amount Box  **
+/***************/
+
+.highlighted-amount {
+    padding:10px;
+    display: block;
+    background-color: #28a197;
+    clear:both;
+    margin-top:26px;
+    text-align:center;
+    color: #fff;
+    font-family:"nta",arial;
+}
+
+.highlighted-amount p:first-child {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin:0;
+    padding-top:23px;
+}
+
+.highlighted-amount >p+p {
+    padding-top:0.2em;
+    padding-bottom:0.1em;
+    font-size:80px;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom:0;
+}
+
+.highlighted-amount >p+p+p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    padding-bottom:24px;
+}
+
+
+/** Amount List  **
+/***************/
+
+ul.equivalent-amounts {
+    list-style-type: disc;
+}
+
+
+ul.equivalent-amounts li {
+    margin-left: 35px;
+
+}
+
+/** Collapsible elements  **
+/**************************/
+
+.collapsible h3 + [aria-hidden] {
+     display:none;
+ }
+
+.collapsible h3 + [aria-hidden='false'] {
+    display:block;
+}
+
+h3 [aria-expanded] {
+
+    width:100%
+    border:none;
+}
+h3 [aria-expanded]::before {
+    content:"\25ba\0020";
+    text-align:left;
+    top:6px;
+}
+h3 [aria-expanded='true']::before {
+    content:"\25bc\0020";
+     text-align:left;
+     top:6px;
+}
+
+button,button:hover,button:visited,button:active,button:focus {
+    background-color:#fff;
+    color:#005ea5;
+    border:0;
+    padding:0.3em;
+    cursor:pointer;
+    padding-left:25px;
+    box-shadow:none;
+    text-decoration:underline;
+}
+
+
+button.landing,button.landing:hover,button.landing:visited,button.landing:active,button.landing:focus {
+
+    padding-left:0px;
+
+}
+
+
+button:focus {
+    outline:3px solid #ffbf47
+}
+
+.sp-age {
+
+    margin-top:35px;
+}
+
